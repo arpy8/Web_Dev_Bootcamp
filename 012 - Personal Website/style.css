@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+    background-color: black;
+    color: beige;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+a:link { 
+    text-decoration: none;
+    color: antiquewhite; 
+}
+a:visited { 
+    text-decoration: none;
+    color: antiquewhite; 
+}
+a:hover { 
+    text-decoration: none;
+    color: antiquewhite; 
+}
+a:active { 
+    text-decoration: none;
+    color: antiquewhite; 
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 34.2rem;
+}
+
+img {
+    width: 46.5rem;
+    height: 24.6rem;
+}
+
+img:hover {
+    filter: blur(4px);
+}
+
+.lower {
+    position: relative;
+    bottom: 41.7% ;
+}
+
+#resume {
+    position: absolute;
+    bottom: 370px;
+    left: 50px;
+    font-size: 200px;
+}
+
+#education {
+    position: relative;
+    bottom: 400px;
+    left: 50px;
+    font-size: 150px;
+}
+
+.lower h1 {
+    position: relative;
+    top: auto;
+    bottom: 52%;
+    left: 10%;
+    font-size: 200px;
+}
+
+

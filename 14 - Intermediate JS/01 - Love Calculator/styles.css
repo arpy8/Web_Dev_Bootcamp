@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    animation: changeBackgroundColor 7s infinite;
+}
+
+@keyframes changeBackgroundColor {
+    0% {
+        background-color: pink;
+    }
+    33% {
+        background-color: lightcoral;
+    }
+    66% {
+        background-color: lightcyan;
+    }
+    100% {
+        background-color: pink;
+    }
+}

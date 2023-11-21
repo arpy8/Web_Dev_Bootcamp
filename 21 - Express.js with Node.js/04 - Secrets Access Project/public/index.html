@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Secrets</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  }
+  
+  </style>
+</head>
+<body>
+  <center>
+    <h1>Secret</h1>
+    <form action="/check" method="POST">
+      <label for="password">Password:</label>
+      <input type="text" id="password" name="password" required placeholder="DDMMYY">
+      <input type="submit" value="Submit">
+    </form>
+  </center>
+</body>
+
+</html>

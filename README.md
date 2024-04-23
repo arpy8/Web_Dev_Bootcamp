@@ -2,12 +2,6 @@
 
 Welcome to the repository documenting my completed Web Dev Journey! In this repository, I've shared my learnings, projects, and resources related to web dev as I progressed through my learning process.
 
-## Table of Contents
-- [About](#about)
-- [Code Snippets](#code-snippets)
-- [Project](#project)
-- [Personal Notes](#personal-notes)
-
 ## About
 This repository was created to track and showcase my journey in learning. Through this documentation, I aimed to provide detailed explanations, code examples, and practical projects to demonstrate my progress in web development.
 
